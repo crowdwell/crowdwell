@@ -862,12 +862,26 @@ form label {
 @media screen and (max-width: 480px) {
   .gtco-tabs .icon-xlg {
     font-size: 200px;
+    }
+
+  .icon img{
+    width:300px;
   }
   .swiper-button-next, .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset,100px) !important;
     left: auto;
 }
+.swiper img {
+  width: 440px !important;
+  height: 380px;
+}
 
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
 
 }
 .gtco-tabs .icon-xlg i {

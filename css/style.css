@@ -863,6 +863,12 @@ form label {
   .gtco-tabs .icon-xlg {
     font-size: 200px;
   }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset,100px) !important;
+    left: auto;
+}
+
+
 }
 .gtco-tabs .icon-xlg i {
   color: #F85A16;
